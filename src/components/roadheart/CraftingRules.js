@@ -39,7 +39,7 @@ function CraftingRules() {
             <b>Success</b> Your attempt is successful, and the materials required to complete it are used.<br/>
             <b>Failure</b> You fail to complete the item, but the materials required for the item can be salvaged. You may try again the following day.<br/>
             <b>Critical Failure</b> You fail to complete the item. Half of your materials are ruined in the attempt, but you can salvage the rest. You may try again the following day.</p>
-            <Link to="/projects/roadheart-repository/store" className="roadheart-link"><img src="/assets/potion.svg" /><h2>View Craftable Items</h2></Link>
+            <Link to="/CS601TermProject/projects/roadheart-repository/store" className="roadheart-link"><img src="/assets/potion.svg" /><h2>View Craftable Items</h2></Link>
         </main>
     );
 }

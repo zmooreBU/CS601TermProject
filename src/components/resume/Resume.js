@@ -6,7 +6,7 @@ function ResumePage() {
     <div className="resume">
         <h1 className="resume-title">Zoe Moore</h1>
         <Link to="/contact" className="contact-me">
-            <img src="/assets/mail-icon.svg" />
+            <img src="/CS601TermProject/assets/mail-icon.svg" />
             <h2>Contact Me</h2>
         </Link>
         <h2 className="resume-title">Education</h2>

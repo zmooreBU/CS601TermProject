@@ -2,7 +2,7 @@ function CharacterProfile({character}) {
     return(
         <div className="character-profile">
             <div >
-                <img className="profile-img" src={'/' + character.img} alt=""/>
+                <img className="profile-img" src={'/CS601TermProject/' + character.img} alt=""/>
             </div>
             <div className="profile-details">
                 <h3>{character.name}</h3>

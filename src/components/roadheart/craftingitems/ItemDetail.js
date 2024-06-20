@@ -19,10 +19,10 @@ function ItemDetail ({inventory}) {
     let actionSVG = '';
     switch (item.activate.actions) {
         case 0:
-            actionSVG = "/assets/free-action.svg";
+            actionSVG = "/CS601TermProject/assets/free-action.svg";
             break;
         case 1:
-            actionSVG = "/assets/single-action.svg";
+            actionSVG = "/CS601TermProject/assets/single-action.svg";
             break;
     }
 
@@ -32,7 +32,7 @@ function ItemDetail ({inventory}) {
             <Link to="/projects/roadheart-repository/store" className="roadheart-link"><img src="/assets/potion.svg" /><h3>Back to Craftable Items</h3></Link>
             </div>
             <div className="item-detail">
-                <img src={'/' + item.imgURL} />
+                <img src={'/CS601TermProject/' + item.imgURL} />
                 <div className="item-info">
                     <div className="item-title"> <h2>{item.name}</h2> <h2> {item.type} {item.level}</h2></div>
                         <div className="item-divider"></div>
