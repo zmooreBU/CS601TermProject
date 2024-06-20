@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/CS601TermProject/static/css/main.f0f4cf34.css",
+    "main.js": "/CS601TermProject/static/js/main.87b88135.js",
+    "static/js/453.45d98d49.chunk.js": "/CS601TermProject/static/js/453.45d98d49.chunk.js",
+    "static/media/repository-bg.png": "/CS601TermProject/static/media/repository-bg.42ba5e299674408b2c67.png",
+    "static/media/filigree1.svg": "/CS601TermProject/static/media/filigree1.3d9f63e9f790040d0b7c.svg",
+    "static/media/filigree3.svg": "/CS601TermProject/static/media/filigree3.cc67a222b4318f59902a.svg",
+    "static/media/filigree2.svg": "/CS601TermProject/static/media/filigree2.bbd2a27084b34e309c7f.svg",
+    "static/media/knight-icon.svg": "/CS601TermProject/static/media/knight-icon.7fdf892246698bc8a89b.svg",
+    "index.html": "/CS601TermProject/index.html",
+    "static/media/star-icon.svg": "/CS601TermProject/static/media/star-icon.977786529cca063d4ec2.svg",
+    "main.f0f4cf34.css.map": "/CS601TermProject/static/css/main.f0f4cf34.css.map",
+    "main.87b88135.js.map": "/CS601TermProject/static/js/main.87b88135.js.map",
+    "453.45d98d49.chunk.js.map": "/CS601TermProject/static/js/453.45d98d49.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0f4cf34.css",
+    "static/js/main.87b88135.js"
+  ]
+}

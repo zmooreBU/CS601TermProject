@@ -1,0 +1,37 @@
+{"characters": [{
+        "name": "Kei",
+        "img":"assets/kei-icon.png",
+        "class":"Wizard",
+        "level": 3,
+        "skills": [
+            {"name":"Crafting",
+            "bonus":9},
+            {"name":"Nature",
+            "bonus":6}]
+    },
+    {
+        "name":"Andy",
+        "img":"assets/andy-icon.png",
+        "class":"Barbarian",
+        "level":3,
+        "skills": [
+            {"name":"Crafting",
+            "bonus":5},
+            {"name":"Survival",
+            "bonus":6}]
+    },
+    {
+        "name":"Zaya",
+        "img":"assets/zaya-icon.png",
+        "class":"Cleric",
+        "level":3,
+        "skills": [
+            {"name":"Nature",
+            "bonus":7},
+            {"name":"Survival",
+            "bonus":7}]
+    }
+],
+"inventory": [ "12gp of Fire, Finesse Material", "8gp of Healing Material"]
+
+}
