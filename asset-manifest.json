@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.d32417fd.css",
-    "main.js": "/static/js/main.0c15a19b.js",
-    "static/js/453.45d98d49.chunk.js": "/static/js/453.45d98d49.chunk.js",
-    "static/media/repository-bg.png": "/static/media/repository-bg.42ba5e299674408b2c67.png",
-    "static/media/filigree1.svg": "/static/media/filigree1.3d9f63e9f790040d0b7c.svg",
-    "static/media/filigree3.svg": "/static/media/filigree3.cc67a222b4318f59902a.svg",
-    "static/media/filigree2.svg": "/static/media/filigree2.bbd2a27084b34e309c7f.svg",
-    "static/media/knight-icon.svg": "/static/media/knight-icon.7fdf892246698bc8a89b.svg",
-    "static/media/star-icon.svg": "/static/media/star-icon.977786529cca063d4ec2.svg",
-    "index.html": "/index.html",
-    "main.d32417fd.css.map": "/static/css/main.d32417fd.css.map",
-    "main.0c15a19b.js.map": "/static/js/main.0c15a19b.js.map",
-    "453.45d98d49.chunk.js.map": "/static/js/453.45d98d49.chunk.js.map"
+    "main.css": "/CS601TermProject/static/css/main.f0f4cf34.css",
+    "main.js": "/CS601TermProject/static/js/main.8ed56cb7.js",
+    "static/js/453.45d98d49.chunk.js": "/CS601TermProject/static/js/453.45d98d49.chunk.js",
+    "static/media/repository-bg.png": "/CS601TermProject/static/media/repository-bg.42ba5e299674408b2c67.png",
+    "static/media/filigree1.svg": "/CS601TermProject/static/media/filigree1.3d9f63e9f790040d0b7c.svg",
+    "static/media/filigree3.svg": "/CS601TermProject/static/media/filigree3.cc67a222b4318f59902a.svg",
+    "static/media/filigree2.svg": "/CS601TermProject/static/media/filigree2.bbd2a27084b34e309c7f.svg",
+    "static/media/knight-icon.svg": "/CS601TermProject/static/media/knight-icon.7fdf892246698bc8a89b.svg",
+    "index.html": "/CS601TermProject/index.html",
+    "static/media/star-icon.svg": "/CS601TermProject/static/media/star-icon.977786529cca063d4ec2.svg",
+    "main.f0f4cf34.css.map": "/CS601TermProject/static/css/main.f0f4cf34.css.map",
+    "main.8ed56cb7.js.map": "/CS601TermProject/static/js/main.8ed56cb7.js.map",
+    "453.45d98d49.chunk.js.map": "/CS601TermProject/static/js/453.45d98d49.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d32417fd.css",
-    "static/js/main.0c15a19b.js"
+    "static/css/main.f0f4cf34.css",
+    "static/js/main.8ed56cb7.js"
   ]
 }
