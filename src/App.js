@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <nav>
         <ul>
-          <li><Link to="/CS601TermProject/">Home</Link></li>
+          <li><Link to="/">Home</Link></li>
           <li><Link to="/resume">My Resume</Link></li>
           <li>
             <div className="dropdown">
