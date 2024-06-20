@@ -32,7 +32,7 @@ function Contact() {
         }
 
         return(
-        <MainPageTemplate title="Contact Me" img="/assets/mainpage-img.png">
+        <MainPageTemplate title="Contact Me" img="/CS601TermProject/assets/mainpage-img.png">
             <div className="contact">
                 <p>Questions? Comments? Inquiries? Send me an email!</p>
                 <form id="contactForm" onSubmit={handleSubmit}>

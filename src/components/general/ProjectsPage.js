@@ -3,8 +3,8 @@ import MainPageTemplate from './MainPageTemplate';
 
 function ProjectsPage() {
     return (
-        <MainPageTemplate title="My Projects" img="/assets/mainpage-img.png">
-            <Link to="/projects/roadheart-repository/" className="project-link"><h2>The Roadheart Repository</h2></Link>
+        <MainPageTemplate title="My Projects" img="/CS601TermProject/assets/mainpage-img.png">
+            <Link to="/CS601TermProject/projects/roadheart-repository/" className="project-link"><h2>The Roadheart Repository</h2></Link>
         </MainPageTemplate>
     );
 }
