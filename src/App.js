@@ -13,17 +13,17 @@ function App() {
     <div className="App">
       <nav>
         <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/resume">My Resume</Link></li>
+          <li><Link to="/CS601TermProject/">Home</Link></li>
+          <li><Link to="/CS601TermProject/resume">My Resume</Link></li>
           <li>
             <div className="dropdown">
-              <Link to="/projects" >My Projects</Link>
+              <Link to="/CS601TermProject/projects" >My Projects</Link>
               <div className="dropdown-content">
-                <Link to="/projects/roadheart-repository/">The Roadheart Repository</Link>
+                <Link to="/CS601TermProject/projects/roadheart-repository/">The Roadheart Repository</Link>
               </div>
             </div>
           </li>
-          <li><Link to="/contact">Contact Me</Link></li>
+          <li><Link to="/CS601TermProject/contact">Contact Me</Link></li>
         </ul>
       </nav>
       <Routes>
@@ -31,11 +31,11 @@ function App() {
           <div className="home-page"> 
             <About /> 
           </div> } />
-        <Route path="/resume" element= {<ResumePage />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/projects" element={<ProjectsPage />} />
-        <Route path="*" element={<NotFound />} />
-        <Route path="/projects/roadheart-repository/*" element={<RoadheartRepository />}>
+        <Route path="/CS601TermProject/resume" element= {<ResumePage />} />
+        <Route path="/CS601TermProject/contact" element={<Contact />} />
+        <Route path="/CS601TermProject/projects" element={<ProjectsPage />} />
+        <Route path="/CS601TermProject/*" element={<NotFound />} />
+        <Route path="/CS601TermProject/projects/roadheart-repository/*" element={<RoadheartRepository />}>
         </Route>
       </Routes>
     </div>
