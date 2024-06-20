@@ -27,7 +27,7 @@ function App() {
         </ul>
       </nav>
       <Routes>
-        <Route path="/" element= { 
+        <Route path="/CS601TermProject/" element= { 
           <div className="home-page"> 
             <About /> 
           </div> } />
