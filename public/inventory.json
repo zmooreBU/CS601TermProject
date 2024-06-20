@@ -1,0 +1,72 @@
+[
+    {
+        "sku": 1,
+        "name": "Shining Ammunition",
+        "imgURL": "assets/arrow-icon.svg",
+        "level": 1,
+        "type": "Ammunition",
+        "traits": ["Consumable", "Light", "Magical"],
+        "activate": { "actions": 0,
+                      "type":"free action"
+                    },
+        "desc": "Shining Ammunition gives off a faint glow. When shot, it sheds bright light in a 20-foot radius, and dim light to next 20 feet for the next 10 minutes. If it hits a target, it sticks to it, causing the target to shed light in the same radius. A creature can remove the ammunition with an interact action, but the ammunition itself continues to glow for the rest of the duration or until destroyed.",
+        "qty": 10,
+        "materials": ["1gp Light Material", "2gp Piercing Material"]
+    },
+    {
+        "sku": 2,
+        "name":"Antler Arrow",
+        "imgURL": "assets/arrow-icon.svg",
+        "level": 2,
+        "type": "Ammunition",
+        "traits": ["Conjuration", "Consumable", "Magical"],
+        "activate": { "actions": 1,
+                        "type":"Interact"
+                    },
+        "desc": "Takes one action to activate. When an activated arrow hits a target, bone antlers extend to pin it down. The target must succeed on a DC 18 Reflex save or become stuck to the surface.",
+        "qty": 2,
+        "materials": ["2gp Piercing Material", "3gp Wood Material", "1gp Vitality Material"]
+    },
+    {
+        "sku": 3,
+        "name": "Merciful Balm",
+        "imgURL": "assets/oil-icon.svg",
+        "level": 1,
+        "type": "Oil",
+        "traits": ["Abjuration", "Consumable", "Magical", "Oil"],
+        "activate": { "actions": 1,
+                        "type":"Interact"
+                    },
+        "desc": "Smelling strongly of herbs and pine resin, merciful balm is a thick sticky past that can be used to anoint a weapon, granting the weapon the nonlethal trait for 1 hour.",
+        "qty": 5,
+        "materials": ["1gp Vitality Material", "1gp Bludgeoning Material"]
+    },
+    {
+        "sku":4,
+        "name":"Nectar of Purification",
+        "imgURL": "assets/oil-icon.svg",
+        "level": 1,
+        "type": "Oil",
+        "traits": ["Consumable", "Magical", "Oil", "Void"],
+        "activate": { "actions": 1,
+                        "type":"manipulate"
+                    },
+        "desc": "A shimmering liquid which, when poured over any food or drink, casts a 1st-rank cleanse cuisine spell. The nectar evaporates as it takes effect, leaving the taste and texture of the food or drink unaltered.",
+        "qty": 2,
+        "materials": ["2gp Void Material"]
+    },
+    {
+        "sku": 5,
+        "name": "Healing Potion (Minor)",
+        "imgURL": "assets/potion-icon2.svg",
+        "level":1,
+        "type": "Potion",
+        "traits": ["Consumable", "Healing", "Magical", "Potion", "Vitality"],
+        "activate": { "actions": 1,
+                        "type":"manipulate"
+                    },
+        "desc": "A vial of ruby-red liquid that imparts a tingling sensation, as it rapidly heals the drinker for 1d8 Hit Points.",
+        "qty": 2,
+        "materials": ["2gp Healing or Vitality Material", "2gp Plant Material"]
+    }
+]

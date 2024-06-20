@@ -1,0 +1,72 @@
+.resume {
+    max-width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.resume ul {
+    padding-left: 15px;
+    list-style-image: url('knight-icon.svg')
+}
+.resume ul li {
+    padding-right:25px;
+}
+
+.resume-title {
+    text-align: right;
+    padding-right: 20px;
+    border-right: 2px solid black;
+}
+
+.resume-section {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.resume-coursework {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.resume-coursework h3 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-bottom: 0;
+}
+
+.resume-projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.technical-skills ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-me {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    border: 1px solid black;
+    margin: 10px;
+    width: 35%;
+    color: black;
+}
+.contact-me h2 {
+    margin: auto;
+}
+
+.contact-me img {
+    height: 5vmin;
+    margin: auto 0;
+    margin-left: 20px;
+}
+
+.contact-me:hover {
+    filter: invert(30%) sepia(80%) saturate(1092%) hue-rotate(348deg) brightness(92%) contrast(90%);
+}

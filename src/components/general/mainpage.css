@@ -1,0 +1,139 @@
+.mainpage {
+    display: grid;
+    grid-template-columns: 1.25fr 2fr 10fr;
+    width: 70%;
+    margin: 0 auto;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.mainpage-section {
+    border: 1px solid #162c2e;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainpage-section:nth-of-type(2) {
+    padding: 0;
+}
+
+.mainpage-section img {
+    max-width: 300px;
+}
+
+.mainpage h1 {
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    margin: 0;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4rem;
+    align-self: flex-start;
+    color: #162c2e;
+}
+
+.mainpage-section:nth-of-type(3) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-roadmap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-roadmap a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: #162c2e;
+    border: 1px solid #162c2e;
+    padding: 10px;
+    margin: 10px;
+    width: 45%;
+}
+
+.about-roadmap h2 {
+    margin: auto;
+}
+
+.about-roadmap img {
+    filter: invert(11%) sepia(11%) saturate(2321%) hue-rotate(137deg) brightness(98%) contrast(89%);
+    height: 10vmin;
+    margin: 10px;
+}
+
+.about-roadmap a:hover {
+    border: 1px solid #AF491D;
+    color: #AF491D;
+}
+
+.about-roadmap a:hover img {
+    filter: invert(30%) sepia(80%) saturate(1092%) hue-rotate(348deg) brightness(92%) contrast(90%);
+}
+
+.contact {
+    text-align: left;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 80%;
+}
+
+.contact-submit {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: #162c2e;
+    border: 1px solid #162c2e;
+    padding: 10px;
+    margin: 10px;
+    font-size: 2em;
+}
+
+.contact-error {
+    color:#AF491D;
+}
+
+.project-link {
+    margin: 20px;
+    border: 1px solid #162c2e ;
+    text-decoration: none;
+    color: #162c2e;
+}
+
+.project-link:hover{
+    border: 1px solid #AF491D;
+    color: #AF491D;
+}
+
+.project-link h2 {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3em;
+    margin: 10px 0;
+}
