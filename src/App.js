@@ -1,12 +1,11 @@
 import './App.css';
 import About from './components/general/About.js';
-import SiteRoadMap from './components/general/SiteRoadMap.js';
 import ResumePage from './components/resume/Resume.js';
 import ProjectsPage from './components/general/ProjectsPage.js'
 import Contact from './components/general/Contact.js';
 import NotFound from './components/general/NotFound.js';
 import RoadheartRepository from './components/roadheart/RoadheartRepository.js';
-import { Outlet, Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route, Link } from 'react-router-dom';
 
 function App() {
   return (

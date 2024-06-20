@@ -29,7 +29,7 @@ function ItemDetail ({inventory}) {
     return(
         <div className="roadheart-crafting-section">
             <div className="item-detail-back-button">
-            <Link to="/projects/roadheart-repository/store" className="roadheart-link"><img src="/assets/potion.svg" /><h3>Back to Craftable Items</h3></Link>
+            <Link to="/CS601TermProject/projects/roadheart-repository/store" className="roadheart-link"><img src="/CS601TermProject/assets/potion.svg" /><h3>Back to Craftable Items</h3></Link>
             </div>
             <div className="item-detail">
                 <img src={'/CS601TermProject/' + item.imgURL} />

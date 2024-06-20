@@ -16,7 +16,6 @@ class RoadheartSidebar extends React.Component {
     }
 
     render() {
-        console.log(this.state.party)
         return (
             <div className="roadheart-crafting-section">
                 <h1>Party Inventory</h1>
@@ -24,7 +23,7 @@ class RoadheartSidebar extends React.Component {
                     {this.state.inventory.map((material, index) => 
                     <li key={index}><b>{material}</b></li>)}
                 </ul>
-                <Link to="/CS601TermProject/projects/roadheart-repository/rules" className="roadheart-link"><img src="/assets/quill.svg" /><h2>Crafting Rules</h2></Link>
+                <Link to="/CS601TermProject/projects/roadheart-repository/rules" className="roadheart-link"><img src="/CS601TermProject/assets/quill.svg" /><h2>Crafting Rules</h2></Link>
                 <ul className="character-profiles">
                     {this.state.party.map((char, index) =>
                         <li key={index}><CharacterProfile character={char}/></li>)}
